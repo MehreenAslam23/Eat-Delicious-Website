@@ -1,0 +1,41 @@
+.nav-div ul{
+    height: 80px;
+    width: 95%;
+    font-family: var(--headingNarrow);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 16px 0 0 0;
+    padding: 10px 0px 0px 50px;
+}
+.nav-div li{
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.btn1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: var(--headingNarrow);
+    background-color: #FF73B5;
+    padding: 10px 0px 10px 0px;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+    position: relative;
+    width: 9rem;
+    cursor: pointer;
+}
+.nav-div img{
+    border-radius: 50%;
+    height: 6rem;
+    cursor: pointer;
+}
+.nav-div a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
