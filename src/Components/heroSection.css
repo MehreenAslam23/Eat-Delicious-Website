@@ -62,10 +62,11 @@ h1{
     padding: 1rem 0;
     bottom: 0;
     position: fixed;
+    z-index: 99;
 }
 .list{
-    animation: 12s slide infinite linear;
     display: inline-flex;
+    animation: 12s slide infinite linear;
 }
 .list li{
     list-style: none;

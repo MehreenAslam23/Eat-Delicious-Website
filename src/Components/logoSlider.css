@@ -1,0 +1,31 @@
+@keyframes slide {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.logoSlider{
+    height: 3rem;
+    background-color: var(--black);
+    padding-top: 70px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 11;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.logos{
+    display: inline-flex;
+    animation: 12s slide infinite linear;
+}
+.logos li{
+    padding: 30px;
+    list-style: none;
+
+}
+.logos li img{
+    height: 70px;
+    margin-left: 80px;
+}

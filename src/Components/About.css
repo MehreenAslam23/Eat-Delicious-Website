@@ -1,0 +1,46 @@
+.image16{
+    width: 100%;
+    padding: 0; 
+    border: 0; 
+    margin-bottom: 0; 
+}
+.image17{
+    height: 100px;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: rotate(20deg);
+}
+.center-div{
+    background-color: #FF73B5;
+    color: #042f1a ;
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+    padding-bottom: 220px;
+    padding-left:110px;
+    padding-right:110px;
+    margin-top: -190px;
+    height: 620px;
+}
+.center-div h2{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: left;
+}
+.center-div p{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-right: 120px;
+}
+.div-one{
+    padding: 20px;
+}
+.div-two{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.div-two img{
+    height: 15rem;
+}
